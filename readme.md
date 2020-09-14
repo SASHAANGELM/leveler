@@ -1,6 +1,13 @@
-Install
+## Before usage
 ```
 npm i @sashaangelm/leveler
+```
+
+```javascript
+
+const { limiter, leveler } = require('@sashaangelm/leveler');
+// OR
+import { limiter, leveler } from '@sashaangelm/leveler';
 ```
 
 ## How to use:
