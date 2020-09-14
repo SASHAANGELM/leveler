@@ -1,3 +1,10 @@
+
+/**
+ * @param {number} value - Value.
+ * @param {number} min - Min allowed value.
+ * @param {number} max - Max allowed value.
+ * @return {number}
+ */
 function limiter(value, min, max) {
   let _min = min;
   let _max = max;
@@ -10,6 +17,11 @@ function limiter(value, min, max) {
   return value;
 }
 
+/**
+ * @param {number} value - Source value.
+ * @param {number[]} params - Array with source and target parameters, [minSource: number, maxSource: number, minTarget: number, maxTarget: number].
+ * @return {number}
+ */
 function leveler(value, params) {
   const [ minSource, maxSource, minTarget, maxTarget ] = params;
 
