@@ -6,15 +6,8 @@
  * @return {number}
  */
 function limiter(value, min, max) {
-  let _min = min;
-  let _max = max;
-  if (min > max) {
-    _min = max;
-    _max = min;
-  }
-  if (value < _min) return _min;
-  else if (value > _max) return _max;
-  return value;
+  if (min > max) return Math.max(Math.min(value, min), max);
+  return Math.max(Math.min(value, max), min);
 }
 
 /**
