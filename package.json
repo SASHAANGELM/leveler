@@ -1,12 +1,19 @@
 {
   "name": "@sashaangelm/leveler",
-  "version": "0.0.1",
-  "description": "Leveler numbers",
+  "version": "0.0.2",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SASHAANGELM/leveler.git"
+  },
+  "author": "SASHAANGELM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SASHAANGELM/leveler/issues"
+  },
+  "homepage": "https://github.com/SASHAANGELM/leveler#readme"
 }
