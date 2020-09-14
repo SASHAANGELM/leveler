@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/SASHAANGELM/leveler#readme",
   "devDependencies": {
+    "husky": "^4.3.0",
     "jest": "^26.4.2"
-  }
+  },
+  "postpush": "call npm publish"
 }
