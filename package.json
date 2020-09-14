@@ -1,6 +1,6 @@
 {
   "name": "@sashaangelm/leveler",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
     "husky": "^4.3.0",
     "jest": "^26.4.2"
   },
-  "postpush": "call npm publish"
+  "husky": {
+    "hooks": {
+      "post-push": "npm publish"
+    }
+  }
 }
