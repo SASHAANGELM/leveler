@@ -1,6 +1,12 @@
 function limiter(value, min, max) {
-  if (value < min) return min;
-  else if (value > max) return max;
+  let _min = min;
+  let _max = max;
+  if (min > max) {
+    _min = max;
+    _max = min;
+  }
+  if (value < _min) return _min;
+  else if (value > _max) return _max;
   return value;
 }
 
